@@ -12,5 +12,10 @@ pipeline {
                 sh 'npm install'
             }
         }
+        stage('Build production') {
+            steps {
+                sh 'npm run build_prod'
+            }
+        }
     }
 }

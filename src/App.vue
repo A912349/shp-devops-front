@@ -5,8 +5,9 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
   <header>
+    <h1>Крестьянинов</h1>
     <div class="wrapper">
-      <HelloWorld msg="Генератор чисел" />
+      <HelloWorld msg="Генератор чисел K" />
     </div>
   </header>
 
